@@ -17,19 +17,22 @@ class DatabaseSeeder extends Seeder
         factory(User::class)->create(
             [
             'email'=>'izzanniroshlei@gmail.com',
-            'name'=>'izzanni'
+            'name'=>'izzanni',
+            
             ]
         );
         factory(User::class)->create(
             [
             'email'=>'aina@gmail.com',
-            'name'=>'aina'
+            'name'=>'aina',
+
             ]
         );
         factory(User::class)->create(
             [
             'email'=>'sab@gmail.com',
-            'name'=>'sab'
+            'name'=>'sab',
+
             ]
         );
     }
